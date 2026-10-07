@@ -187,8 +187,8 @@ class _HalamanKartuState extends State<HalamanKartu> {
 
                     _barisData(
                       Icons.school_outlined,
-                      'Angkatan',
-                      '2024',
+                      'Program Studi',
+                      'Teknik Komputer',
                       warnaTeks,
                       warnaHijau,
                     ),

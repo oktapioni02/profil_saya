@@ -72,7 +72,7 @@ class HalamanProfil extends StatelessWidget {
               const SizedBox(height: 12),
               _barisInfo(Icons.phone_outlined, '+62 8214 4249 257'),
               const SizedBox(height: 12),
-              _barisInfo(Icons.school_outlined, 'Angkatan 2024'),
+              _barisInfo(Icons.school_outlined, 'Program Studi Teknik Komputer'),
             ],
           ),
         ),
