@@ -59,8 +59,10 @@ void tampilkan(String judul, List<MataKuliah> data) {
     print('  (tidak ada data)');
     return;
   }
-  data.forEach((mk) => print(
-      '  ${mk['kode']} | ${(mk['nama'] as String).padRight(28)} | ${mk['sks']} SKS'));
+  for (var mk in data) {
+    print(
+      '  ${mk['kode']} | ${(mk['nama'] as String).padRight(28)} | ${mk['sks']} SKS');
+  }
   print('  Total: ${data.length} mata kuliah, ${totalSks(data)} SKS');
 }
 

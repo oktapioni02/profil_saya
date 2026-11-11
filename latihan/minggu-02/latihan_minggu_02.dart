@@ -44,7 +44,7 @@ class Produk {
       return '$nama - Rp${harga.toStringAsFixed(0)} (tanpa diskon)';
     }
     return '$nama - Rp${harga.toStringAsFixed(0)} '
-        '(diskon ${diskon}%) -> Rp${hargaAkhir.toStringAsFixed(0)}';
+        '(diskon $diskon%) -> Rp${hargaAkhir.toStringAsFixed(0)}';
   }
 }
 

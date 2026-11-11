@@ -90,7 +90,7 @@ class _HalamanKartuState extends State<HalamanKartu> {
 
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.black.withOpacity(0.1),
+                      color: Colors.black.withValues(alpha: 0.1),
                       blurRadius: 15,
                       offset: const Offset(0, 6),
                     ),
@@ -137,7 +137,7 @@ class _HalamanKartuState extends State<HalamanKartu> {
                                 '202463121008',
                                 style: TextStyle(
                                   fontSize: 14,
-                                  color: warnaTeks.withOpacity(0.7),
+                                  color: warnaTeks.withValues(alpha: 0.7),
                                 ),
                               ),
 
@@ -259,7 +259,7 @@ class _HalamanKartuState extends State<HalamanKartu> {
           padding: const EdgeInsets.all(10),
 
           decoration: BoxDecoration(
-            color: warnaIkon.withOpacity(0.15),
+            color: warnaIkon.withValues(alpha: 0.15),
             borderRadius: BorderRadius.circular(10),
           ),
 
@@ -280,7 +280,7 @@ class _HalamanKartuState extends State<HalamanKartu> {
               label,
               style: TextStyle(
                 fontSize: 12,
-                color: warnaTeks.withOpacity(0.6),
+                color: warnaTeks.withValues(alpha: 0.6),
               ),
             ),
 
